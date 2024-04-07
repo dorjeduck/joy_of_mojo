@@ -1,6 +1,7 @@
 +++
 title = 'Conditional SIMD Operations'
 date = 2024-04-07T08:18:01+05:45
+author = 'dorjeduck'
 draft = false
 
 categories = ["stdlib"]
@@ -11,7 +12,7 @@ tags = ["mojo 24.2.0","builtin","simd"]
 
 #### Context
 
-- **Mojo Documentation**: [SIMD select method](https://docs.modular.com/mojo/stdlib/builtin/simd#select)
+- **Mojo Reference**: [SIMD select method](https://docs.modular.com/mojo/stdlib/builtin/simd#select)
 - **Mojo Version**: 24.2.0
 
 ---

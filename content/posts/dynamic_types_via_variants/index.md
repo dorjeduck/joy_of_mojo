@@ -1,6 +1,7 @@
 +++
 title = 'Dynamic types via Variants'
 date = 2024-04-07T09:41:36+05:45
+author = 'dorjeduck'
 draft = false
 
 categories = ["stdlib"]
@@ -11,7 +12,7 @@ tags = ["mojo 24.2.0","utils","variant"]
 
 #### Context
 
-- **Mojo Documentation**: [Variant](https://docs.modular.com/mojo/stdlib/utils/variant)
+- **Mojo Reference**: [Variant](https://docs.modular.com/mojo/stdlib/utils/variant)
 - **Youtube**: [Overview of Dict, Variant and Optional in Mojo🔥](https://www.youtube.com/watch?v=ywbzfY5v2ZM)
 - **Mojo Version**: 24.2.0
 
