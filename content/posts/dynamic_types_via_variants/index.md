@@ -10,7 +10,7 @@ tags = ["mojo 24.2.0","utils","variant"]
 
 ---
 
-#### Context
+### Context
 
 - **Mojo Reference**: [Variant](https://docs.modular.com/mojo/stdlib/utils/variant)
 - **Youtube**: [Overview of Dict, Variant and Optional in Mojo🔥](https://www.youtube.com/watch?v=ywbzfY5v2ZM)
@@ -18,7 +18,7 @@ tags = ["mojo 24.2.0","utils","variant"]
 
 ---
 
-#### Demo: Summing Integers and String Representations
+### Demo: Summing Integers and String Representations
 
 This demo illustrates how to sum elements in an array that may be either integers or strings representing integers. It uses Mojo's [Variant](https://docs.modular.com/mojo/stdlib/utils/variant) to accommodate mixed data types within the same array. Notably, the data type of variable `v3`, whether `String` or `Int`, is determined only at runtime in this demo (dynamic type).
 

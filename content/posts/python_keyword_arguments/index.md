@@ -11,7 +11,7 @@ tags = ["mojo 24.2.0","python"]
 
 ---
 
-#### Context
+### Context
 
 - **Mojo Reference**: [Python](https://docs.modular.com/mojo/stdlib/python/)
 - **Mojo Manual**: [Python Integration](https://docs.modular.com/mojo/manual/python/)
@@ -20,7 +20,7 @@ tags = ["mojo 24.2.0","python"]
 
 ---
 
-#### Demo: Paint a Smiley
+### Demo: Paint a Smiley
 
 ---
   
@@ -80,7 +80,7 @@ Output:
 
 ---
 
-#### Remarks
+### Remarks
 
 You need to have `numpy` and `matpotlib` installed to run this demo.
 

@@ -10,14 +10,14 @@ tags = ["mojo 24.2.0","builtin","simd"]
 
 ---
 
-#### Context
+### Context
 
 - **Mojo Reference**: [SIMD select method](https://docs.modular.com/mojo/stdlib/builtin/simd#select)
 - **Mojo Version**: 24.2.0
 
 ---
 
-#### Demo: Vectorized Relu Function
+### Demo: Vectorized Relu Function
 
 This demo illustrates a practical application of conditional SIMD operations to implement the Relu activation function in a vectorized manner. The Relu function is defined as returning 0 for all input values less than 0 and the input value itself for those greater than 0.
 
@@ -75,6 +75,6 @@ Output:
 
 ---
 
-#### Remarks
+### Remarks
 
 Special thanks to @sora from the Discord community for elucidating this technique.
