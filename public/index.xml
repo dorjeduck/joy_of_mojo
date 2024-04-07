@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Joy of Mojo 🔥</title>
-        <link>//localhost:1313/</link>
+        <link>//localhost:56457/</link>
         <description>This is Joy of Mojo</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>martin.dudek@gmail.com (dorjeduck)</managingEditor>
             <webMaster>martin.dudek@gmail.com (dorjeduck)</webMaster><lastBuildDate>Sun, 07 Apr 2024 07:35:01 &#43;0545</lastBuildDate>
-            <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="//localhost:56457/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>
