@@ -7,11 +7,11 @@
             <webMaster>martin.dudek@gmail.com (dorjeduck)</webMaster><lastBuildDate>Sun, 07 Apr 2024 09:41:36 &#43;0545</lastBuildDate>
             <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Variant</title>
-    <link>//localhost:1313/variant/</link>
+    <title>Dynamic types via Variants</title>
+    <link>//localhost:1313/dynamic_types_via_variants/</link>
     <pubDate>Sun, 07 Apr 2024 09:41:36 &#43;0545</pubDate>
     <author>dorjeduck</author>
-    <guid>//localhost:1313/variant/</guid>
+    <guid>//localhost:1313/dynamic_types_via_variants/</guid>
     <description><![CDATA[Context Mojo Documentation: Variant Youtube: Overview of Dict, Variant and Optional in Mojo🔥 Mojo Version: 24.2.0 Demo: Summing Integers and String Representations This demo illustrates how to sum elements in an array that may be either integers or strings representing integers. It uses Mojo&rsquo;s Variant to accommodate mixed data types within the same array. Notably, the data type of variable v3, whether String or Int, is determined only at runtime in this demo (dynamic type).]]></description>
 </item>
 <item>

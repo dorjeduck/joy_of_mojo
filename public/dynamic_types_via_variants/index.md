@@ -1,11 +1,5 @@
-+++
-title = 'Variant'
-date = 2024-04-07T09:41:36+05:45
-draft = false
+# Dynamic types via Variants
 
-categories = ["stdlib"]
-tags = ["mojo 24.2.0","utils","variant"]
-+++
 
 ---
 
@@ -74,3 +68,4 @@ Output:
 ---
 
 **Mojo Playground**: [https://gist.github.com/modularbot/35306258030868a6113794349302b757](https://gist.github.com/modularbot/35306258030868a6113794349302b757)
+
