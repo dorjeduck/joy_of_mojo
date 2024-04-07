@@ -2,7 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>//localhost:56457/about/</loc><lastmod>2024-04-07T07:35:01&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>//localhost:56457/</loc><lastmod>2024-04-07T07:35:01&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>//localhost:56457/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>//localhost:56457/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>//localhost:1313/categories/</loc><lastmod>2024-04-07T09:41:36&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/</loc><lastmod>2024-04-07T09:41:36&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/tags/mojo-24.2.0/</loc><lastmod>2024-04-07T09:41:36&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/posts/</loc><lastmod>2024-04-07T09:41:36&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/categories/stdlib/</loc><lastmod>2024-04-07T09:41:36&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/tags/</loc><lastmod>2024-04-07T09:41:36&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/tags/utils/</loc><lastmod>2024-04-07T09:41:36&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/tags/variant/</loc><lastmod>2024-04-07T09:41:36&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/variant/</loc><lastmod>2024-04-07T09:41:36&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/tags/builtin/</loc><lastmod>2024-04-07T08:18:01&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/simd_select_method/</loc><lastmod>2024-04-07T08:18:01&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/tags/simd/</loc><lastmod>2024-04-07T08:18:01&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>//localhost:1313/about/</loc><lastmod>2024-04-07T07:35:01&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>

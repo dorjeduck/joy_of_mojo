@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Joy of Mojo 🔥</title>
-        <link>//localhost:1313/</link>
-        <description>This is Joy of Mojo</description>
+        <title>Mojo 24.2.0 - Tag - Joy of Mojo 🔥</title>
+        <link>//localhost:1313/tags/mojo-24.2.0/</link>
+        <description>Mojo 24.2.0 - Tag - Joy of Mojo 🔥</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>martin.dudek@gmail.com (dorjeduck)</managingEditor>
-            <webMaster>martin.dudek@gmail.com (dorjeduck)</webMaster><lastBuildDate>Sun, 07 Apr 2024 09:41:36 &#43;0545</lastBuildDate>
-            <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>martin.dudek@gmail.com (dorjeduck)</webMaster><lastBuildDate>Sun, 07 Apr 2024 09:41:36 &#43;0545</lastBuildDate><atom:link href="//localhost:1313/tags/mojo-24.2.0/" rel="self" type="application/rss+xml" /><item>
     <title>Variant</title>
     <link>//localhost:1313/variant/</link>
     <pubDate>Sun, 07 Apr 2024 09:41:36 &#43;0545</pubDate>

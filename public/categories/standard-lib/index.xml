@@ -1,18 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Joy of Mojo 🔥</title>
-        <link>//localhost:1313/</link>
-        <description>This is Joy of Mojo</description>
+        <title>Standard Lib - Category - Joy of Mojo 🔥</title>
+        <link>//localhost:1313/categories/standard-lib/</link>
+        <description>Standard Lib - Category - Joy of Mojo 🔥</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>martin.dudek@gmail.com (dorjeduck)</managingEditor>
-            <webMaster>martin.dudek@gmail.com (dorjeduck)</webMaster><lastBuildDate>Sun, 07 Apr 2024 09:41:36 &#43;0545</lastBuildDate>
-            <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>martin.dudek@gmail.com (dorjeduck)</webMaster><lastBuildDate>Sun, 07 Apr 2024 09:41:36 &#43;0545</lastBuildDate><atom:link href="//localhost:1313/categories/standard-lib/" rel="self" type="application/rss+xml" /><item>
     <title>Variant</title>
     <link>//localhost:1313/variant/</link>
     <pubDate>Sun, 07 Apr 2024 09:41:36 &#43;0545</pubDate>
     <author>dorjeduck</author>
     <guid>//localhost:1313/variant/</guid>
-    <description><![CDATA[Context Mojo Documentation: Variant Youtube: Overview of Dict, Variant and Optional in Mojo🔥 Mojo Version: 24.2.0 Demo: Summing Integers and String Representations This demo illustrates how to sum elements in an array that may be either integers or strings representing integers. It uses Mojo&rsquo;s Variant to accommodate mixed data types within the same array. Notably, the data type of variable v3, whether String or Int, is determined only at runtime in this demo (dynamic type).]]></description>
+    <description><![CDATA[Context Mojo Documentation: Variant **Youtube: Overview of Dict, Variant and Optional in Mojo🔥 Mojo Version: 24.2.0 Demo: Vectorized Relu Function Variant allows
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 from utils.variant import Variant alias IntOrString = Variant[Int, String] fn sum(*elements:IntOrString) -&gt; Int: var res:Int = 0 for i in range(len(elements)): if elements[i].]]></description>
 </item>
 <item>
     <title>Conditional SIMD Operations</title>

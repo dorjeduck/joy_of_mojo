@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Simd - Tag - Joy of Mojo 🔥</title>
+        <link>//localhost:1313/tags/simd/</link>
+        <description>Simd - Tag - Joy of Mojo 🔥</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>martin.dudek@gmail.com (dorjeduck)</managingEditor>
+            <webMaster>martin.dudek@gmail.com (dorjeduck)</webMaster><lastBuildDate>Sun, 07 Apr 2024 08:18:01 &#43;0545</lastBuildDate><atom:link href="//localhost:1313/tags/simd/" rel="self" type="application/rss+xml" /><item>
+    <title>Conditional SIMD Operations</title>
+    <link>//localhost:1313/simd_select_method/</link>
+    <pubDate>Sun, 07 Apr 2024 08:18:01 &#43;0545</pubDate>
+    <author>dorjeduck</author>
+    <guid>//localhost:1313/simd_select_method/</guid>
+    <description><![CDATA[Context Mojo Documentation: SIMD select method Mojo Version: 24.2.0 Demo: Vectorized Relu Function This demo illustrates a practical application of conditional SIMD operations to implement the Relu activation function in a vectorized manner. The Relu function is defined as returning 0 for all input values less than 0 and the input value itself for those greater than 0.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 from algorithm import vectorize alias LEN = 7 alias dtype = DType.]]></description>
+</item>
+</channel>
+</rss>

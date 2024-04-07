@@ -1,8 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Category - Joy of Mojo 🔥</title>
-        <link>//localhost:56457/categories/</link>
+        <link>//localhost:1313/categories/</link>
         <description>Categories - Category - Joy of Mojo 🔥</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>martin.dudek@gmail.com (dorjeduck)</managingEditor>
-            <webMaster>martin.dudek@gmail.com (dorjeduck)</webMaster><atom:link href="//localhost:56457/categories/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>martin.dudek@gmail.com (dorjeduck)</webMaster><lastBuildDate>Sun, 07 Apr 2024 09:41:36 &#43;0545</lastBuildDate><atom:link href="//localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Stdlib</title>
+    <link>//localhost:1313/categories/stdlib/</link>
+    <pubDate>Sun, 07 Apr 2024 09:41:36 &#43;0545</pubDate>
+    <author>dorjeduck</author>
+    <guid>//localhost:1313/categories/stdlib/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
