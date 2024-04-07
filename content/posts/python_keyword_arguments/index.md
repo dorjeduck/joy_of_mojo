@@ -76,10 +76,6 @@ Output:
 
 ---
 
-**Mojo Playground**: [https://gist.github.com/modularbot/9ca05a83bbc49d226e646f14c8ab5b00](https://gist.github.com/modularbot/9ca05a83bbc49d226e646f14c8ab5b00)
-
----
-
 ### Remarks
 
 You need to have `numpy` and `matpotlib` installed to run this demo.

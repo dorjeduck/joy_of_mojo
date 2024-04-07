@@ -71,10 +71,6 @@ Output:
 
 ---
 
-**Mojo Playground**: [https://gist.github.com/modularbot/d5ad733c1549ea75d80181df4474ad9c](https://gist.github.com/modularbot/d5ad733c1549ea75d80181df4474ad9c)
-
----
-
 ### Remarks
 
 Special thanks to @sora from the Discord community for elucidating this technique.

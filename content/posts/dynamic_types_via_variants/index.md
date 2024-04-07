@@ -72,6 +72,4 @@ Output:
 >
 > result: 37
 
----
 
-**Mojo Playground**: [https://gist.github.com/modularbot/35306258030868a6113794349302b757](https://gist.github.com/modularbot/35306258030868a6113794349302b757)
