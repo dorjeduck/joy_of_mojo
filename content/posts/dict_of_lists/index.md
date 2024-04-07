@@ -28,7 +28,8 @@ This program shows how to use a dictionary to organize numbers based on the sum 
 from collections import Dict
 from math import floor,sqrt
 
-fn digit_sum(owned n:Int) -> Int:
+fn digit_sum(number:Int) -> Int:
+    var n = number
     var sum_of_digits = 0
     while n > 0:
         sum_of_digits += n % 10
