@@ -1,9 +1,9 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = {{ .Date }}
-author = 'default_author_name' 
+author = 'dorjeduck' 
 draft = true
 
 categories = []
-tags = []
+tags = ["mojo 24.2.0"]
 +++
