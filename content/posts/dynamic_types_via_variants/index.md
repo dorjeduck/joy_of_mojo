@@ -4,8 +4,8 @@ date = 2024-04-07T09:41:36+05:45
 author = 'dorjeduck'
 draft = false
 
-categories = ["stdlib"]
-tags = ["mojo 24.2.0","utils","variant"]
+categories = ["stdlib.utils"]
+tags = ["mojo 24.2.0","variant"]
 +++
 
 ---
@@ -71,5 +71,3 @@ Output:
 > v3 = String(21)
 >
 > result: 37
-
-

@@ -4,7 +4,7 @@ date = 2024-04-07T15:05:52+05:45
 author = 'dorjeduck'
 draft = false
 
-categories = ["stdlib"]
+categories = ["stdlib.python"]
 tags = ["mojo 24.2.0","python"]
 +++
 

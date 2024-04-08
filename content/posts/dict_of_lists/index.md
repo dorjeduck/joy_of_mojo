@@ -4,8 +4,8 @@ date = 2024-04-07T18:37:26+05:45
 author = 'dorjeduck' 
 draft = false
 
-categories = ["stdlib"]
-tags = ["mojo 24.2.0","collections","dict"]
+categories = ["stdlib.collections"]
+tags = ["mojo 24.2.0","dict"]
 +++
  
 ---
