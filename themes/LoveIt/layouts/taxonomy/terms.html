@@ -24,7 +24,7 @@
                         <div class="card-item-wrapper">
                             <h3 class="card-item-title">
                                 <a href="{{ .RelPermalink }}">
-                                    <i class="far fa-folder fa-fw" aria-hidden="true"></i>&nbsp;{{ .Page.Title }}
+                                    <i class="far fa-folder fa-fw" aria-hidden="true"></i>&nbsp;{{ (.Page.Title|lower) }}
                                 </a>
                             </h3>
                             {{- range first 5 $pages -}}
@@ -49,7 +49,7 @@
         {{- else if eq $taxonomies "tags" -}}
             <div class="tag-cloud-tags">
                 {{- range $.Site.Taxonomies.tags.ByCount -}}
-                    <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <sup>{{ .Count }}</sup></a>
+                    <a href="{{ .Page.RelPermalink }}">{{ (.Page.Title|lower) }} <sup>{{ .Count }}</sup></a>
                 {{- end -}}
             </div>
         {{- end -}}
