@@ -8,9 +8,9 @@
         <h2 class="single-title _jom_animate__animated _jom_animate__pulse _jom_animate__faster">
             {{- $taxonomy := .Data.Singular -}}
             {{- if eq $taxonomy "category" -}}
-                <i class="far fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;{{ .Title }}
+                <i class="far fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;{{ .Title | lower}}
             {{- else if eq $taxonomy "tag" -}}
-                <i class="fas fa-tag fa-fw" aria-hidden="true"></i>&nbsp;{{ .Title }}
+                <i class="fas fa-tag fa-fw" aria-hidden="true"></i>&nbsp;{{ .Title| lower }}
             {{- else -}}
                 {{- printf "%v - %v" (T $taxonomy | default $taxonomy) .Title -}}
             {{- end -}}
