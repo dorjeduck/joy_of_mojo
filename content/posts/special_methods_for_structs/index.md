@@ -20,13 +20,13 @@ tags = ["mojo 24.2.0"]
 
 This demo showcases the creation of a struct to represent [Dual Numbers](https://en.wikipedia.org/wiki/Dual_number), which are numbers of the form `a+bϵ`, where `a` and `b` are real numbers, and `ϵ` is a special element with the property `ϵ * ϵ = 0` yet ϵ in not 0.
 
-Addition and multiplication for dual numbers is defined as:
+Addition and multiplication for dual numbers are defined as:
 
 * `(a+bϵ) + (c+dϵ) = a+b + (c+d)ϵ`
 * `(a+bϵ) * (c+dϵ) = a*b + (a*c+b*d)ϵ`
 
 
-To implement this arithmetic for our struct, we can use the special methods `__add__()` and `__mul__()`. Further arithmetic operations could be implemented in a similar way. (See the [Int](https://docs.modular.com/mojo/stdlib/builtin/int) description in the Mojo documentation to learn about the names of the respective special functions in Mojo). Here, we also implement the special method `__str__()` which returns a string representation of a dual number. By implementing this method, the struct conforms to the [Stringable](https://docs.modular.com/mojo/stdlib/builtin/str.html#stringable)  trait and can be used in print statements."
+To implement this arithmetic for our struct, we can use the special methods `__add__()` and `__mul__()`. Further arithmetic operations could be implemented in a similar way. (See the [Int](https://docs.modular.com/mojo/stdlib/builtin/int) description in the Mojo documentation to learn about the names of the respective special functions in Mojo). Here, we also implement the special method `__str__()` which returns a string representation of a dual number. By implementing this method, the struct conforms to the [Stringable](https://docs.modular.com/mojo/stdlib/builtin/str.html#stringable)  trait and can be used in print statements.
 
 ---
   
