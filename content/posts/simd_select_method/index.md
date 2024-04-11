@@ -73,4 +73,4 @@ Output:
 
 ### Remarks
 
-Special thanks to @sora from the Discord community for elucidating this technique.
+Special thanks to @sora from the Modular Discord community for elucidating this technique.

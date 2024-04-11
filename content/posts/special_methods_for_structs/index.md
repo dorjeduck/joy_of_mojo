@@ -5,7 +5,7 @@ author = 'dorjeduck'
 draft = false
 
 categories = ["manual.struct"]
-tags = ["mojo 24.2.0"]
+tags = ["mojo 24.2.0","struct"]
 +++
 
 
