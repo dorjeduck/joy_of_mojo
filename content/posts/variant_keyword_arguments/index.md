@@ -5,7 +5,7 @@ author = 'dorjeduck'
 draft = false
 
 
-categories = ["stdlib.utils"]
+categories = ["stdlib.utils","manual.functions"]
 tags = ["mojo 24.2.0","variant","kwargs"]
 +++
 
@@ -13,6 +13,7 @@ tags = ["mojo 24.2.0","variant","kwargs"]
 ### Context
 
 - **Mojo Reference**: [Variant](https://docs.modular.com/mojo/stdlib/utils/variant)
+- **Mojo Manual**: [Variadic keyword arguments](https://docs.modular.com/mojo/manual/functions#variadic-keyword-arguments)
 - **Mojo Version**: 24.2.0
 
 ---
