@@ -27,27 +27,37 @@ fn _swap[T:AnyType](inout a:Pointer[T], inout b:Pointer[T]) -> None:
     a = b
     b = temp
 
-fn _partition[T:AnyType, cmp_fn:fn(Pointer[T],Pointer[T])->Int](inout arr:Pointer[Pointer[T]],  low:Int,  high:Int) -> Int:
+fn _partition[T:AnyType, cmp_fn:fn(Pointer[T],Pointer[T])->Int,*,descending:Bool=False](inout arr:Pointer[Pointer[T]],  low:Int,  high:Int) -> Int:
+    
+    @parameter
+    fn compare(a: Pointer[T], b: Pointer[T] ) -> Int:
+        @parameter
+        if descending: 
+            return -1* cmp_fn(a,b)
+        else: 
+            return  cmp_fn(a,b)
+    
     var pivot = arr[high]  #pivot
     var i = low-1  
     for j in range(low,high):
-        if cmp_fn(arr[j], pivot) <= 0 : 
+        if compare(arr[j], pivot) <= 0 : 
             i+=1
             _swap(arr[i], arr[j])
                            
     _swap(arr[i + 1], arr[high])
     return i+1
 
-fn quicksort[T:AnyType, cmp_fn:fn(Pointer[T],Pointer[T])->Int](inout arr:Pointer[Pointer[T]], low:Int, high:Int):
+fn quicksort[T:AnyType, cmp_fn:fn(Pointer[T],Pointer[T])->Int,*,descending:Bool=False](inout arr:Pointer[Pointer[T]], low:Int, high:Int):
     
     if low < high:
-        var pi = _partition[T,cmp_fn](arr, low, high,)
-        quicksort[T,cmp_fn](arr, low, pi - 1)
-        quicksort[T,cmp_fn](arr, pi + 1, high)
+        var pi = _partition[T,cmp_fn,descending=descending](arr, low, high,)
+        quicksort[T,cmp_fn,descending=descending](arr, low, pi - 1)
+        quicksort[T,cmp_fn,descending=descending](arr, pi + 1, high)
 
 
 alias PersonPtr = Pointer[Person]
 alias GroupPtr = Pointer[PersonPtr]
+
 
 struct Person:
     var name:String
@@ -58,6 +68,7 @@ struct Person:
     
     @staticmethod
     fn compare(p1:PersonPtr, p2:PersonPtr) -> Int:
+        
         if p1[].age > p2[].age:
             return 1
         elif p1[].age < p2[].age:
@@ -89,12 +100,14 @@ fn main():
  
     print("before sort: ",end="")
     Person.print_group(group,GROUP_SIZE)
-
-    quicksort[Person,Person.compare](group,0, GROUP_SIZE-1)
     
-    print(" after sort: ",end="")
+    quicksort[Person,Person.compare](group,0, GROUP_SIZE-1)
+    print("ascending: ",end="")
     Person.print_group(group,GROUP_SIZE)
 
+    quicksort[Person,Person.compare,descending=True](group,0, GROUP_SIZE-1)
+    print("descending: ",end="")
+    Person.print_group(group,GROUP_SIZE)
 ```
 
 ---
@@ -103,7 +116,9 @@ Output:
 
 > before sort: Rose (20), Tom (21), Julia (22), Sam (20), Rose (21), Tom (22), Julia (20)
 >
->  after sort: Rose (20), Sam (20), Julia (20), Tom (21), Rose (21), Tom (22), Julia (22)
+> ascending: Rose (20), Sam (20), Julia (20), Tom (21), Rose (21), Tom (22), Julia (22)
+>
+> descending: Tom (22), Julia (22), Tom (21), Rose (21), Julia (20), Rose (20), Sam (20)
 
 ---
 
