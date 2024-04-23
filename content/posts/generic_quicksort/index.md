@@ -1,5 +1,5 @@
 +++
-title = 'Generic_quicksort'
+title = 'Generic Quicksort'
 date = 2024-04-23T16:36:02+05:30
 author = 'dorjeduck' 
 draft = false
