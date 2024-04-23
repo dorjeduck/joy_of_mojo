@@ -11,7 +11,6 @@ tags = ["mojo 24.2.1","quicksort"]
 ### Context
 
 - **Mojo Reference**: [Sort](https://docs.modular.com/mojo/stdlib/algorithm/sort)
-whats-new-in-mojo-24-2-mojo-nightly-enhanced-python-interop-oss-stdlib-and-more)
 - **Mojo Version**: 24.2.1
 
 ---
