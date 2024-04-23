@@ -109,6 +109,4 @@ Output:
 
 ### Remarks
 
-The Mojo standard library includes a [partition](https://docs.modular.com/mojo/stdlib/algorithm/sort#partition) method that appears to function similarly to the custom `_partition` method defined in this demonstration. However, I have not yet figured out how to utilize it within the context of this demo. 
-
-T
+The Mojo standard library includes a [partition](https://docs.modular.com/mojo/stdlib/algorithm/sort#partition) method that appears to function similarly to the custom `_partition` method defined in this demonstration. However, I have not yet figured out how to utilize it within the context of this demo.
