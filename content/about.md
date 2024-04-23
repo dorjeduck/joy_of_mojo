@@ -8,4 +8,4 @@ Exploring the [Mojo](https://www.modular.com/mojo) programming language through 
 
 ---
 
-*This website heartily encourages collaborative efforts from the Modular Discord community. If you're keen on contributing to the compilation of demo programs as a valuable learning resource, please don't hesitate to reach out to me on Discord (@dorjeduck - Martin Dudek). Your involvement could significantly enrich the content and support fellow learners in navigating the intricacies of Mojo.*
+  *This website welcomes contributions from the Modular Discord community to help compile demo programs as a learning resource. If you're interested in contributing, please contact me on Discord (@dorjeduck - Martin Dudek). You can access the Hugo-based source code on GitHub at [https://github.com/dorjeduck/joy_of_mojo](https://github.com/dorjeduck/joy_of_mojo) The website automatically updates with every push to this repository.*
