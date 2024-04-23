@@ -5,5 +5,5 @@ author = 'dorjeduck'
 draft = true
 
 categories = []
-tags = ["mojo 24.2.0"]
+tags = ["mojo 24.2.1"]
 +++
