@@ -124,4 +124,5 @@ Output:
 
 ### Remarks
 
-The Mojo standard library includes a [partition](https://docs.modular.com/mojo/stdlib/algorithm/sort#partition) method that appears to function similarly to the custom `_partition` method defined in this demonstration. However, I have not yet figured out how to utilize it within the context of this demo.
+* The Mojo standard library includes a [partition](https://docs.modular.com/mojo/stdlib/algorithm/sort#partition) method that appears to function similarly to the custom `_partition` method defined in this demonstration. However, I have not yet figured out how to utilize it within the context of this demo.
+* As pointed out by @helehex and @moosems_yeehaw on Discord, a version involving the definition of a custom Sortable trait would lead to a more elegant solution. Unfortunately so far we run in some compiler issues trying to do this.
