@@ -2,7 +2,7 @@
 title = 'Generic_quicksort'
 date = 2024-04-23T16:36:02+05:30
 author = 'dorjeduck' 
-draft = true
+draft = false
 
 categories = [stdlib.algorithm]
 tags = ["mojo 24.2.1",quicksort]
