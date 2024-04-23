@@ -49,7 +49,6 @@ fn quicksort[T:AnyType, cmp_fn:fn(Pointer[T],Pointer[T])->Int](inout arr:Pointer
 alias PersonPtr = Pointer[Person]
 alias GroupPtr = Pointer[PersonPtr]
 
-
 struct Person:
     var name:String
     var age:Int
@@ -98,8 +97,18 @@ fn main():
 
 ```
 
+---
+
 Output:
 
 > before sort: Rose (20), Tom (21), Julia (22), Sam (20), Rose (21), Tom (22), Julia (20)
 >
 >  after sort: Rose (20), Sam (20), Julia (20), Tom (21), Rose (21), Tom (22), Julia (22)
+
+---
+
+### Remarks
+
+The Mojo standard library includes a [partition](https://docs.modular.com/mojo/stdlib/algorithm/sort#partition) method that appears to function similarly to the custom `_partition` method defined in this demonstration. However, I have not yet figured out how to utilize it within the context of this demo. 
+
+T
